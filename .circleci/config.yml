@@ -35,3 +35,4 @@ jobs:
 
       # run tests!
       - run: yarn test
+      - run: yarn chromatic test --app-code=nr0fhbc3ggq --exit-zero-on-changes
